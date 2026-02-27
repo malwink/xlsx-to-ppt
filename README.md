@@ -78,7 +78,7 @@ The entire worksheet is rendered as a table on the final slide.
 
 ---
 
-## Installation
+## Installation & Usage
 
 Create a virtual environment (recommended):
 
@@ -91,11 +91,11 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-```bash
+
 python excel_to_ppt.py
 
-### Or, as import:
-```bash
+## Or, as import:
+
 from excel_to_ppt import ExcelToPPT
 
 converter = ExcelToPPT("data.xlsx", "presentation.pptx")
